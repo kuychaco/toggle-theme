@@ -14,5 +14,21 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "configSchema": {
+    "darkThemes": {
+      "type": "array",
+      "default": ["one-dark-ui", "one-dark-syntax"],
+      "items": {
+        "type": "string"
+      }
+    },
+    "lightThemes": {
+      "type": "array",
+      "default": ["one-light-ui", "one-light-syntax"],
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }
